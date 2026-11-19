@@ -1,0 +1,10 @@
+{
+  "name": "content-true/live-swap-face-frame-audit",
+  "description": "Compare sampled RGB frames and flag abrupt visual changes for manual video review",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://liveswapface.com/",
+  "keywords": ["video", "frame", "comparison", "face swap", "review"],
+  "require": {"php": "^8.1"},
+  "autoload": {"psr-4": {"ContentTrue\\LiveSwapFace\\": "src/"}}
+}
