@@ -65,7 +65,7 @@ final class FrameAudit
             }
         }
         $pixels = $region['width'] * $region['height'];
-        $score = $sum / ($pixels * 3 * 255);
+        $score = (float) $sum / ($pixels * 3 * 255);
         return ['score' => $score, 'flagged' => $score >= $threshold, 'pixelsCompared' => $pixels];
     }
 }
